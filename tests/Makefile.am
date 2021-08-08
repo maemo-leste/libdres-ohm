@@ -6,7 +6,7 @@ dres_test_CFLAGS  = @LIBOHMFACT_CFLAGS@      \
 
 dres_test_LDADD   = ../src/libdres.la     \
                     @LIBOHMFACT_LIBS@        \
-                    @GLIB_LIBS@ @LEXLIB@ @LIBTRACE_LIBS@
+                    @GLIB_LIBS@ @LIBTRACE_LIBS@
 
 fs_test_SOURCES = fs-test.c
 fs_test_CFLAGS  = @LIBOHMFACT_CFLAGS@ @GLIB_CFLAGS@
