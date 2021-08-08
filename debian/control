@@ -16,6 +16,7 @@ Build-Depends:
  libglib2.0-dev,
  libsimple-trace-dev,
  bison,
+ flex,
 Standards-Version: 4.3.0
 
 Package: libdres-utils
