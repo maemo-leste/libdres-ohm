@@ -1,0 +1,3 @@
+usr/include/dres/*
+usr/lib/*/*.so
+usr/lib/*/pkgconfig/*.pc

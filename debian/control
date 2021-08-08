@@ -1,0 +1,35 @@
+Source: libdres
+Section: libs
+Priority: optional
+Maintainer: Merlijn Wajer <merlijn@wizzup.org>
+Build-Depends:
+ debhelper-compat (= 12),
+ libtool,
+ libtool-bin,
+ autoconf,
+ autoconf-archive,
+ automake,
+ pkg-config,
+ check,
+ libprolog-dev,
+ ohm-dev,
+Standards-Version: 4.3.0
+
+Package: libdres-utils
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Miscellaneous DRES utilities, including dresc
+
+
+Package: libdres-dev
+Architecture: any
+Depends:
+ libdres-utils (= ${binary:Version}),
+Description: libprolog development headers
+ This package contains development files for libdres.
+
+Package: ohm-plugin-resolver
+Architecture: any
+Depends:
+ ohm
+Description: OHM dependency resolver plugin
