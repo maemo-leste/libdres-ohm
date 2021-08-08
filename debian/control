@@ -15,6 +15,7 @@ Build-Depends:
  ohm-dev,
  libglib2.0-dev,
  libsimple-trace-dev,
+ bison,
 Standards-Version: 4.3.0
 
 Package: libdres-utils
